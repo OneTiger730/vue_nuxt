@@ -18,13 +18,11 @@
 			<div class="s2_desc">
 				<p><strong>{{$t('swetrack_meaning1')}}<br> <span>{{$t('swetrack_meaning2')}}</span> </strong></p>
 				<p>{{$t('swetrack_meaning_desc1')}}<br><br>
-
 					{{$t('swetrack_meaning_desc2')}} <span>{{$t('swetrack_meaning_desc3')}}</span>{{$t('swetrack_meaning_desc4')}}<br><br>
-
-					<span>{{$t('swetrack_meaning_desc5')}}</span>{{$t('swetrack_meaning_desc6')}}</p>
-				</div>
-				<div class="s2_imgs" id="s2_a"><img src="~/assets/Images_Website/AboutUs/AboutUs/Images/Internet Connection2 2.png" class="s2_img"/></div>
+          <span>{{$t('swetrack_meaning_desc5')}}</span>{{$t('swetrack_meaning_desc6')}}</p>
 			</div>
+			<div class="s2_imgs" id="s2_a"><img src="~/assets/Images_Website/AboutUs/AboutUs/Images/Internet Connection2 2.png" class="s2_img"/></div>
+		</div>
 			<!-- section2 html code end -->
 			<!-- section1 html code start -->
 			<div class="section1">
