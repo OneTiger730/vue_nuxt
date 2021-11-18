@@ -8,6 +8,7 @@ export const I18N = {
       iso: 'en-US',
       name: 'English'
     },
+    
     {
       code: 'sv',
       iso: 'sv-Sv',
