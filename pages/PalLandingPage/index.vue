@@ -136,7 +136,9 @@
 						<p :class="{ 'text_style': fadeShow==10?true:false }">{{$t('cus_app')}}</p>
 						<p class="direct_right" :class="{ 'text_style': fadeShow==10?true:false,  'd-none': fadeShow==10?true:false  }">→</p><p class="direct_down" :class="{ 'text_style': fadeShow==10?true:false, 'd-none': fadeShow==10?false:true }">↓&nbsp;</p>
 					</div>
+          
 					<!-- section2 html code start -->
+          
 					<div class="section2" :class="{ 'd-none': fadeShow==10?false:true }">
 						<div class="s2_desc">
 							<p>{{$t('earlier')}} <span>{{$t('area_app')}}</span></p>
@@ -161,6 +163,7 @@
 				<div class="s1_line"></div>
 			</div>
 			<!-- section1 html code end -->
+      
 			<!-- section2 html code start -->
 			<div class="section2" :class="{ 'd-none': fadeShow==0?true:false }">
 				<div class="s2_desc">
