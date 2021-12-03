@@ -47,6 +47,7 @@
 							{{$t('integration_desc2')}}
 						</p>
 					</div>
+          
 					<div style="padding:5px">
 						<p :class="{ 'd-none': fadeShow2==4?false:true }">{{$t('integration_desc3')}}<br>
 							<b>{{$t('integration_desc4')}}</b><br>
@@ -80,6 +81,7 @@
 			</div>
 		</div>
 		<!-- section1 html code end -->
+    
 		<!-- section1 html code start -->
 		<div class="section1"  id="section1_after">
 			<div class="s1_card" :class="{ 'heignt_long': fadeShow1==2?true:false,  'height_small': fadeShow2==4||fadeShow3==6?true:false }">
@@ -123,6 +125,7 @@
 			</div>
 		</div>
 		<!-- section1 html code end -->
+    
 		<!-- section4 html code start -->
 		<div class="m_section4">
 			<div class="m_s4_card">
@@ -205,10 +208,7 @@
 	line-height: 25px !important;
 	color: rgba(31, 151, 239, 0.57) !important;
 }
-
-a,
-a:hover,
-a:focus {
+a, a:hover, a:focus {
 	text-decoration: none;
 }
 .btn {
@@ -247,8 +247,6 @@ a:focus {
 	color: #fff;
 	border: solid 1px #fff;
 }
-
-
 .produkter_header {
 	padding: 180px 0% 50px 10%;
 	background-image: url("~/assets/Images_Website/Products_LandingPage/Products_LandingPage/Images/backgroundgrad.svg"),
@@ -257,7 +255,6 @@ a:focus {
 	background-size: cover;
 	text-align: left;
 }
-
 .produkter_title>p>span{
 	font-family: Poppins;
 	font-style: normal;
