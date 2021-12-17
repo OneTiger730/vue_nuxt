@@ -25,11 +25,13 @@
                 <span>{{$t('nav_product1.swetrack_lite')}}</span>
               </nuxt-link>
             </div>
+            
             <div class="dropdown-item">
               <nuxt-link :to="localePath('/maxiTrackerPage')">
                 <span>{{$t('nav_product2.maxitracker')}}</span>
               </nuxt-link>
             </div>
+            
             <div class="dropdown-item">
               <nuxt-link :to="localePath('/swetrackPlusPage')">
                 <span>{{$t('nav_product3.swetrack_plus')}}</span>
@@ -37,6 +39,7 @@
             </div>
           </div>
         </li>
+        
         <li class="nav-item" :class="{ 'dropdown-show': dropdown2_show }">
           <nuxt-link class="nav-link dropdown-toggle" :class="{'active': isSelected==3?true:false}" :to="localePath('/forCompanyPage')">{{$t('business')}}</nuxt-link>
           <span class="dropdown-icon" @click="dropdown2_show = !dropdown2_show">>         </span>
