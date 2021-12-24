@@ -1,24 +1,29 @@
-/* eslint-disable */
+
 <template>
   <div>
     <nav class="navbar" id="nav" :class="{ 'nav-fix': !view.atTopOfPage, 'mobile-nav-show': mobileNavShow, 'back-black': isBlack }" >
       <button class="navbar-toggler navbar-toggler-right" type="button"  @click="mobileNavShow = true" :class="{ 'show': !mobileNavShow }">
         <img src="../assets/Images_Website/HomePage/hambergur.svg">
       </button>
+      
       <button class="navbar-toggler navbar-toggler-right" type="button"  @click="mobileNavShow = false"  :class="{ 'show': mobileNavShow }">
         &times;
       </button>
+      
       <nuxt-link class="navbar-brand" :to="localePath('/')">
         <img src="../assets/Images_Website/HomePage/Images/SweTrackLogoWhite 1.png">
         <img src="../assets/Images_Website/HomePage/Images/logo_black.png">
       </nuxt-link>
+      
       <ul class="mobile-nav navbar-nav">
         <li class="nav-item">
           <nuxt-link class="nav-link" :class="{'active': isSelected==1?true:false}" :to="localePath('/')">{{$t('home')}}</nuxt-link>
         </li>
         <li class="nav-item" :class="{ 'dropdown-show': dropdown_show }">
           <nuxt-link class="nav-link dropdown-toggle" :class="{'active': isSelected==2?true:false}" :to="localePath('/productsLandingPage')">{{$t('products')}}</nuxt-link>
+          
           <span class="dropdown-icon" @click="dropdown_show = !dropdown_show"></span>
+          
           <div class="dropdown-menu" >
             <div class="dropdown-item">
               <nuxt-link :to="localePath('/swetrackLitePage')">
