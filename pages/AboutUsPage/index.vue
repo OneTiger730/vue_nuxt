@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
 	<div class="hello">
 		<main-navbar :isSelected = 4 />
