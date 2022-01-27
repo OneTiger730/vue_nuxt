@@ -5,11 +5,9 @@
       <button class="navbar-toggler navbar-toggler-right" type="button"  @click="mobileNavShow = true" :class="{ 'show': !mobileNavShow }">
         <img src="../assets/Images_Website/HomePage/hambergur.svg">
       </button>
-      
       <button class="navbar-toggler navbar-toggler-right" type="button"  @click="mobileNavShow = false"  :class="{ 'show': mobileNavShow }">
         &times;
       </button>
-      
       <nuxt-link class="navbar-brand" :to="localePath('/')">
         <img src="../assets/Images_Website/HomePage/Images/SweTrackLogoWhite 1.png">
         <img src="../assets/Images_Website/HomePage/Images/logo_black.png">
