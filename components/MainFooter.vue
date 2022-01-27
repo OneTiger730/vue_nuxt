@@ -59,19 +59,24 @@
             </div>
           </div>
         </li>
+        
         <li class="nav-item">
           <nuxt-link class="nav-link" :class="{'active': isSelected==4?true:false}" :to="localePath('/aboutUsPage')">{{$t('about')}}</nuxt-link>
         </li>
+        
         <li class="nav-item">
           <nuxt-link class="nav-link" :class="{'active': isSelected==5?true:false}" :to="localePath('/contactUsPage')">{{$t('contact')}}</nuxt-link>
         </li>
+        
         <li class="nav-item">
           <nuxt-link class="nav-link" :class="{'active': isSelected==6?true:false}" :to="localePath('/willDO')">{{$t('thanks')}}</nuxt-link>
         </li>
+        
         <li class="nav-item">
           <nuxt-link class="nav-link" :class="{'active': isSelected==7?true:false}" :to="localePath('/retailerPage')">{{$t('reseller')}}</nuxt-link>
         </li>
       </ul>
+      
       <div class="collapse navbar-collapse" id="navb">
         <ul class="navbar-nav mr-auto web-nav" id="nav-link-main">
           <li class="nav-item">
