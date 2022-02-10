@@ -11,6 +11,7 @@
 			</div>
 		</div>
 		<!-- header html code end -->
+    
 		<!-- section2 html code start -->
 		<div class="section2">
 			<div class="s2_imgs sdf" id="s2_b"><img src="~/assets/Images_Website/AboutUs/AboutUs/Images/Internet Connection2 2.png" class="s2_img"/></div>
@@ -23,6 +24,7 @@
 			<div class="s2_imgs" id="s2_a"><img src="~/assets/Images_Website/AboutUs/AboutUs/Images/Internet Connection2 2.png" class="s2_img"/></div>
 		</div>
 			<!-- section2 html code end -->
+      
 			<!-- section1 html code start -->
 			<div class="section1">
 				<VueSlickCarousel v-bind="settings" ref="carousel" class="carousel-card">
@@ -53,6 +55,7 @@
 				</VueSlickCarousel>
 			</div>
 			<!-- section1 html code end -->
+      
 			<!-- section4 html code start -->
 			<div class="m_section4">
 				<div class="m_s4_card">
@@ -63,6 +66,7 @@
 				</div>
 			</div>
 			<!-- section4 html code end -->
+      
 			<!-- section5 html code start -->
 			<div class="m_section5">
 				<p><strong>{{$t('gps1')}}<span> &nbsp;{{$t('gps2')}}</span></strong></p>
@@ -70,6 +74,7 @@
 				<p class="brinner">{{$t('gps_small_desc')}}</p>
 			</div>
 			<!-- section5 html code end -->
+      
 			<!-- section6 html code start -->
 			<div class="section6">
 				<div class="s6_mar_0">
